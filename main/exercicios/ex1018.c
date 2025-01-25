@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
+int main(){
 
     int N, cem, cinquenta, vinte, dez, cinco, dois, um;
 
