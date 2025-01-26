@@ -1,6 +1,3 @@
-//Bruna Surur Bergara, RA: 165536
-//Exercício Beecrowd: Prefixa, Infixa e Posfixa entregue em 22/05/2023
-
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 2000
