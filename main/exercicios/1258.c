@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-typedef struct no
-{
+typedef struct no{
    char nome[60];
    char cor[20];
    char tamanho;
@@ -14,13 +13,11 @@ void main()
 {
    unsigned short numCamisas, i;
    scanf("%hu", &numCamisas);
-   while (true)
-   {
+   while (true){
       if (numCamisas == 0)
          break;
       camisa camisas[numCamisas];
-      for (i = 0; i < numCamisas; i++)
-      {
+      for (i = 0; i < numCamisas; i++){
          scanf(" %[^\n]", camisas[i].nome);
          scanf("%s %c", camisas[i].cor, &camisas[i].tamanho);
       }
