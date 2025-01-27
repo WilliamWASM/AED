@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-typedef struct no
-{
+typedef struct no{
    char palavra[51];
 } casoTeste;
 void ordena(casoTeste *casos, unsigned int tam)
@@ -18,8 +17,7 @@ void ordena(casoTeste *casos, unsigned int tam)
       I++;
    }
 }
-int main()
-{
+int main(){
    casoTeste casos[50];
    int I, J, K = 0, N = 0, num;
    char letras[2501];
